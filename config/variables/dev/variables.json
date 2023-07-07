@@ -1,0 +1,17 @@
+{
+  "team_league_etl_cloud_run_dag": {
+    "dag_folder": "team_league_etl_cloud_run_dag",
+    "team_stats_source_bucket": "mazlum_dev",
+    "team_stats_source_object": "hot/etl/cloud_run/input_teams_stats_raw.json",
+    "team_stats_dest_bucket": "mazlum_dev",
+    "team_stats_dest_object": "cold/etl/cloud_run/",
+    "team_stats_service_url": "https://teams-stats-service-4wtmsxga6q-ew.a.run.app",
+    "team_stats_service_post_endpoint": "/teams/statistics",
+    "team_stats_service_slogans_request_body": {
+      "team_slogans": {
+        "PSG": "Paris est magique",
+        "Real": "Hala Madrid"
+      }
+    }
+  }
+}
