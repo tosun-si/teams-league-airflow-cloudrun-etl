@@ -5,6 +5,19 @@ orchestrated by Cloud Composer / Airflow
 
 ![etl_batch_pipeline_composer_cloudrun_bq.png](diagram%2Fetl_batch_pipeline_composer_cloudrun_bq.png)
 
+The article on this topic :
+
+https://medium.com/google-cloud/etl-batch-pipeline-with-cloud-storage-cloud-run-and-bigquery-orchestrated-by-airflow-composer-3cbb252b56aa
+
+The video in English :
+
+https://youtu.be/J6rIzvMzIfY
+
+The video in French :
+
+https://youtu.be/TPPJdzjglGM
+
+
 ## Build the container for Cloud Run Service with Cloud Build
 
 Update `GCloud CLI` :
